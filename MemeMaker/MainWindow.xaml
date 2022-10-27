@@ -121,7 +121,7 @@
                           Margin="0,10,0,0"
                           IsChecked="True"></CheckBox>
             </Grid>
-            <Border Visibility="{Binding ElementName=bordeCheckBox,Path=IsChecked,Converter={StaticResource conversor}}"
+            <Border BorderThickness="{Binding ElementName=bordeCheckBox,Path=IsChecked,Converter={StaticResource conversor}}"
                     Background="#FFF3D2D2"
                     BorderBrush="Black"
                     Margin="10"
